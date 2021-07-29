@@ -7,6 +7,9 @@ namespace ProjJenkin1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            add ad = new add();
+            Console.WriteLine(ad.addition());
         }
     }
 }
